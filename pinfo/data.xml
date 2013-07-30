@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pinfo>
+	<command>
+		<name>Redémarrer le Raspberry Pi</name>
+		<command>sudo reboot</command>
+		<login>1</login>
+		<success>Le Raspberry Pi va redémarrer</success>
+	</command>
+</pinfo>
+
+<!--
+
+Comment ajouter une nouvelle commande à l'interface ?
+
+Ajouter une nouvelle node <command></command> avec le contenu suivant :
+
+- name : Nom du bouton affiché sur la page principale
+- command : Commande à exécuter
+- login (prends les valeurs 1 ou 0) : Sera vérifié avant l'exécution de la commande. Si = 1, il faudra être identifié pour que la commande s'exécute
+- success : Texte à afficher une fois la commande effectuée
+
+ -->
